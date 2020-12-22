@@ -1,6 +1,6 @@
 function greetFriend(name) {
   // Insert code here;
-coutsole.out(name);
+coutsole.log(name);
 }
 
 // Do not edit this line;
