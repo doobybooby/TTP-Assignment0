@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "This is a README file. Initial commit.",
   "main": "index.js",
-  
   "scripts": {
-	"test": "mocha",
+    "test": "mocha",
     "test-all": "mocha */*.test.js --watch",
     "test-00": "mocha */greetFriend.test.js --watch",
     "test-01": "mocha */titleCaseEdit.test.js --watch",

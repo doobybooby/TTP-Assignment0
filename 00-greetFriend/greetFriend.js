@@ -1,6 +1,7 @@
 function greetFriend(name) {
   // Insert code here;
-coutsole.log(name);
+  
+  console.log('Hello %s!',name)
 }
 
 // Do not edit this line;
