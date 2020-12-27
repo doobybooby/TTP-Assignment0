@@ -1,7 +1,7 @@
 function greetFriend(name) {
   // Insert code here;
   
-  console.log("Hello, %s!", name)
+  return "Hello, " +name+ "!";
 }
 
 // Do not edit this line;
