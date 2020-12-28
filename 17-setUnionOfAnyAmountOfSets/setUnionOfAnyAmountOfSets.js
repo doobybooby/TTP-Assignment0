@@ -2,11 +2,11 @@ function setUnionOfAnyAmountOfSets(...args) {
   // Insert code here;
   var output = new Set();
   // iterate through each set 
-  for(i in args){
+  for(var i of args){
   // iterate through each element in each set
-    for(j in i){
+	  for(var j of i){
 	  //add element to output
-	  output.add(i[j]);
+	  output.add(j);
     }
   }
   return output;
